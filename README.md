@@ -1,6 +1,11 @@
 # SRA_workflow
 Python scripts explanation in pseudo-code format.
 
+# files
+references_hcv_blastn.fasA = HCV reference sequence for basic local alignment search with BLASTn
+references_reporters_codon.fasA = HCV reference sequence with adjusted codon used for multiple sequence alignment with MAFFT
+RSV-AB-CDSs-final.fasA = RSV reference sequence used for multiple sequence alignment with MAFFT
+sra_workflow.py
 
 # sra_workflow.py
 
