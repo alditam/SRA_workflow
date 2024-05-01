@@ -5,9 +5,10 @@ Python scripts explanation in pseudo-code format.
 references_hcv_blastn.fasA = HCV reference sequence for basic local alignment search with BLASTn
 references_reporters_codon.fasA = HCV reference sequence with adjusted codon used for multiple sequence alignment with MAFFT
 RSV-AB-CDSs-final.fasA = RSV reference sequence used for multiple sequence alignment with MAFFT
-sra_workflow.py
+sra_snakemake.py   = snakemake based workflow to process SRA files
+sra_workflow.py    = python based workflow to process SRA files
 
-# sra_workflow.py
+# sra_snakemake.py
 
 Initialize necessary libraries and set global constants
 Import essential libraries (subprocess, timeit, os, numpy, pandas, BioPython, threading, concurrent.futures)
